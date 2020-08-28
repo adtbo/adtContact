@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetail form Screen Unit test renders correctly for new contact 1`] = `null`;
+
+exports[`ContactDetail form Screen Unit test renders correctly for update contact 1`] = `null`;

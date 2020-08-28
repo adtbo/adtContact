@@ -4,9 +4,28 @@
   "expo": {
     "name": "adtContact",
     "slug": "adtContact",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.test.adtContact",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.test.adtContact",
+      "versionCode": 1
+    }
   }
 }
